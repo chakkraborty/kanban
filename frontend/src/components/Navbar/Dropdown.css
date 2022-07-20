@@ -1,0 +1,32 @@
+.dropdown_main {
+  margin-top: 5px;
+  width: 150px;
+  /* background-color: rgb(74, 70, 70); */
+  background-color: black;
+
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+.dropdown_main.clicked {
+  display: none;
+}
+
+.dropdown_item {
+  color: rgb(185, 177, 177);
+  padding-left: 20px;
+  font-size: 15px;
+  width: 120px;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.dropdown_item:hover {
+  cursor: pointer;
+  background-color: #192734;
+}
